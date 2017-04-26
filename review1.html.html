@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="script.js"></script>
+	</head>
+	
+	<body id="body" onload="autoload();">
+		<h1>Learning JavaScirpt</h1>
+		<nav>
+			<ul>
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="calculator.html">Calculator</a></li>
+				<li><a class="link" href="forms.html">Forms</a></li>
+				<li><a class="link" href="review1.html">Review 1</a></li>
+				<li><a class="link" href="imagegallery.html">Image Gallery</a></li>
+				<li><a class="link" href="animation.html">Animation</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Javascript Review 1</h2>
+			
+			<div id="part1">
+			</div>
+			
+			<div id="part2">
+				<h3>Part 2 - On Click</h3>
+				<p>Do stuff when you click on a button</p>
+				<input id="part2-input"/>
+				<button onclick="addText()">
+					Add Text
+				</button>
+			</div>
+			
+			<div id="part3">
+				<h3>Part 3 - Change Style</h3>
+				<p>Change an element's style with JS</p>
+				<button onclick="changeStyle()">
+				Change style
+				</button>
+				
+				<p id="part3-p">
+				Change my style by clicking on the button!
+				</p>
+			</div>
+			
+			<div id="part4">
+				<h3>Part 4 - Change page style</h3>
+				<p>Change style of the whole page. </p>
+				<button onclick="original()">
+				Original
+				</button>
+				<button onclick="changeBackground()">
+				Style 1
+				</button>
+				<button onclick="background2()">
+				Style 2
+				</button>
+				<button onclick="background3()">
+				Style 3
+				</button>
+			</div>
+			
+			<div id="part5">
+				<h3>Add a picture</h3>
+				<p>Add a picture to the page</p>
+				<button onclick="changePic()">
+				Add picture
+				</button>
+			</div>
+		</main>
+	</body>
+</html>

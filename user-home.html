@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="script.js"></script>
+
+		
+	</head>
+	
+	<body onload="loadHome()">
+		<h1>Learning JavaScirpt</h1>
+		<nav>
+			<ul>
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="calculator.html">Calculator</a></li>
+				<li><a class="link" href="forms.html">Forms</a></li>
+				<li><a class="link" href="review1.html">Review 1</a></li>
+				<li><a class="link" href="imagegallery.html">Image Gallery</a></li>
+				<li><a class="link" href="animation.html">Animation</a></li>
+			</ul>
+		</nav>
+		<main>
+			<p id="demo"></p>
+
+			<script>
+			    document.getElementById("demo").innerHTML = Date();
+			</script>
+
+			
+			<div id="logout-bar">
+			</div>
+			<h2>User Home</h2>
+			<div id="blogs">
+				<input id="post" type="text" placeholder="Write a blog post!"/>
+				<button onclick="addPost()">Post!</button>
+				<ul id="posts">
+				</ul>
+			</div>
+			
+		</main>
+	</body>
+</html>
